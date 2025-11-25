@@ -1,0 +1,258 @@
+{
+  "name": "",
+  "hero": {
+    "name": "Sypha Belnades",
+    "isRanged": true,
+    "hp": 10,
+    "move": 3,
+    "specialAbility": "Sypha tiene elementos asociados a sus cartas, estas hacen efectos al jugarlas tras otras de un elemento diferente (Ver \"Sinergias Elementales\").\nPara perder deben de morir ambos luchadores.\n"
+  },
+  "sidekick": {
+    "name": "Trevor Velmont",
+    "isRanged": false,
+    "hp": 12,
+    "quantity": 1,
+    "quote": null
+  },
+  "appearance": {
+    "borderColour": "#3ef1cd",
+    "cardbackUrl": "https://github.com/jualobcab/imagesUnmatched/blob/main/img/syphaTrevorCardBackBorder.png?raw=true",
+    "highlightColour": "#5e8ce4",
+    "isPNP": false,
+    "patternName": "Intersecting Circles"
+  },
+  "cards": [
+    {
+      "title": "Lucero del alba",
+      "type": "scheme",
+      "characterName": "TREVOR",
+      "value": null,
+      "boost": 3,
+      "basicText": "Trevor se sitúa en cualquier casilla del mapa, ganas una acción (solo para atacar con Trevor) y aplica Fuego con el siguiente ataque.",
+      "immediateText": null,
+      "duringText": null,
+      "afterText": null,
+      "imageUrl": "https://github.com/jualobcab/imagesUnmatched/blob/main/img/trevorWhipConIcono5.png?raw=true",
+      "quantity": 2
+    },
+    {
+      "title": "Canalizar",
+      "type": "scheme",
+      "characterName": "SYPHA",
+      "value": null,
+      "boost": 3,
+      "basicText": "Roba 2 cartas.\n- Aire: Sitúate en cualquier casilla\n- Agua: Si esta es tu última acción recibes 2 menos de daño hasta tu siguiente turno\n- Fuego: Coge una carta de tus descartes\n- Rayo: Haz 2 daños a 1 luchador de tu zona",
+      "immediateText": null,
+      "duringText": null,
+      "afterText": null,
+      "imageUrl": "https://github.com/jualobcab/imagesUnmatched/blob/main/img/Sypha_Belnades_Key_Art%20-%20copia.jpg?raw=true",
+      "quantity": 2
+    },
+    {
+      "title": "Poción curativa",
+      "type": "defence",
+      "characterName": "ANY",
+      "value": 2,
+      "boost": 2,
+      "basicText": "Esta carta no se puede cancelar si Sypha y Trevor están en la misma zona.",
+      "immediateText": "El atacante o un aliado adyacente que esté en la zona se recupera de 4 de vida",
+      "duringText": "",
+      "afterText": "",
+      "imageUrl": "https://github.com/jualobcab/imagesUnmatched/blob/main/img/healing2.jpeg?raw=true",
+      "quantity": 2
+    },
+    {
+      "title": "Torrente de viento",
+      "type": "defence",
+      "characterName": "SYPHA",
+      "value": 3,
+      "boost": 1,
+      "basicText": "",
+      "immediateText": "",
+      "duringText": "",
+      "afterText": "Puedes mover al rival hasta 3 casillas.",
+      "imageUrl": "",
+      "quantity": 2
+    },
+    {
+      "title": "Control del combate",
+      "type": "defence",
+      "characterName": "ANY",
+      "value": 3,
+      "boost": 2,
+      "basicText": "Esta carta tiene 2 más de valor si Trevor y Sypha están adyacentes.",
+      "immediateText": "",
+      "duringText": "",
+      "afterText": "Si ganaste el combate haces 2 de daño al rival.",
+      "imageUrl": "https://github.com/jualobcab/imagesUnmatched/blob/main/img/manoAmano2.jpg?raw=true",
+      "quantity": 2
+    },
+    {
+      "title": "Finta",
+      "type": "versatile",
+      "characterName": "ANY",
+      "value": 2,
+      "boost": 2,
+      "basicText": "",
+      "immediateText": "Cancela los efectos de la carta del rival.",
+      "duringText": "",
+      "afterText": "",
+      "imageUrl": "",
+      "quantity": 3
+    },
+    {
+      "title": "Al rescate",
+      "type": "versatile",
+      "characterName": "ANY",
+      "value": 3,
+      "boost": 2,
+      "basicText": "",
+      "immediateText": "Trevor y Sypha pueden cambiar lugares, si lo hacen, el otro luchador pasa a estar en el combate",
+      "duringText": "",
+      "afterText": "",
+      "imageUrl": "https://github.com/jualobcab/imagesUnmatched/blob/main/img/espaldaConEspalda.png?raw=true",
+      "quantity": 2
+    },
+    {
+      "title": "Muro de hielo",
+      "type": "versatile",
+      "characterName": "SYPHA",
+      "value": 1,
+      "boost": 1,
+      "basicText": "",
+      "immediateText": "Si Trevor está muerto, aparece en la casilla libre más cercana con 4 de vida.",
+      "duringText": "",
+      "afterText": "",
+      "imageUrl": "https://github.com/jualobcab/imagesUnmatched/blob/main/img/iceWall4.png?raw=true",
+      "quantity": 1
+    },
+    {
+      "title": "Un poco más",
+      "type": "versatile",
+      "characterName": "TREVOR",
+      "value": 4,
+      "boost": 1,
+      "basicText": "",
+      "immediateText": "Si Sypha está muerta, aparece en la casilla vacía más cercana con 3 de vida.",
+      "duringText": "",
+      "afterText": "",
+      "imageUrl": "",
+      "quantity": 1
+    },
+    {
+      "title": "Retener con cadenas",
+      "type": "versatile",
+      "characterName": "TREVOR",
+      "value": 3,
+      "boost": 1,
+      "basicText": "Si Sypha está adyacente al luchador enemigo, esta carta tiene +1 al valor.",
+      "immediateText": "Robas una carta.",
+      "duringText": "",
+      "afterText": "Si ganas el combate roba una carta",
+      "imageUrl": "https://github.com/jualobcab/imagesUnmatched/blob/main/img/agarreLatigo.jpg?raw=true",
+      "quantity": 2
+    },
+    {
+      "title": "Ciclón",
+      "type": "versatile",
+      "characterName": "SYPHA",
+      "value": 2,
+      "boost": 1,
+      "basicText": "",
+      "immediateText": "",
+      "duringText": "Puedes mover a los luchadores en casillas adyacentes a tu zona a la adyacente de tu zona",
+      "afterText": "",
+      "imageUrl": "https://github.com/jualobcab/imagesUnmatched/blob/main/img/ciclon.png?raw=true",
+      "quantity": 2
+    },
+    {
+      "title": "Bola de fuego",
+      "type": "attack",
+      "characterName": "SYPHA",
+      "value": 4,
+      "boost": 2,
+      "basicText": "",
+      "immediateText": "",
+      "duringText": "",
+      "afterText": "El rival revela su mano",
+      "imageUrl": "https://github.com/jualobcab/imagesUnmatched/blob/main/img/syphaFireBall3.png?raw=true",
+      "quantity": 2
+    },
+    {
+      "title": "Toque abrasador",
+      "type": "attack",
+      "characterName": "SYPHA",
+      "value": 2,
+      "boost": 1,
+      "basicText": "",
+      "immediateText": "Si Sypha está adyacente al rival el valor de esta carta es 1 más.",
+      "duringText": "",
+      "afterText": "Si el rival no descarta una carta recibe 1 de daño.",
+      "imageUrl": "https://github.com/jualobcab/imagesUnmatched/blob/main/img/syphaFire3.png?raw=true",
+      "quantity": 2
+    },
+    {
+      "title": "Descarga",
+      "type": "attack",
+      "characterName": "SYPHA",
+      "value": 2,
+      "boost": 2,
+      "basicText": "Si Trevor está adyacente al luchador enemigo, el valor de esta carta es 1 más.",
+      "immediateText": "",
+      "duringText": "",
+      "afterText": "Roba una carta",
+      "imageUrl": "https://github.com/jualobcab/imagesUnmatched/blob/main/img/cadenaDeRelampagos2.png?raw=true",
+      "quantity": 2
+    },
+    {
+      "title": "Todo o nada",
+      "type": "attack",
+      "characterName": "SYPHA",
+      "value": 4,
+      "boost": 3,
+      "basicText": "Si Trevor está muerto, esta carta tiene un valor de 2 más.",
+      "immediateText": "",
+      "duringText": "",
+      "afterText": "Puedes descartarte cartas, por cada una que descartes tu rival descarta otra aleatoria.",
+      "imageUrl": "https://raw.githubusercontent.com/jualobcab/imagesUnmatched/refs/heads/main/img/syphaRayo3.webp",
+      "quantity": 2
+    },
+    {
+      "title": "Virote de hielo",
+      "type": "attack",
+      "characterName": "SYPHA",
+      "value": 1,
+      "boost": 1,
+      "basicText": "",
+      "immediateText": "",
+      "duringText": "El valor de potenciación de la carta del rival se suma al valor de esta carta",
+      "afterText": "",
+      "imageUrl": "https://raw.githubusercontent.com/jualobcab/imagesUnmatched/refs/heads/main/img/iceLance5.png",
+      "quantity": 2
+    },
+    {
+      "title": "Último Aliento",
+      "type": "attack",
+      "characterName": "TREVOR",
+      "value": 5,
+      "boost": 4,
+      "basicText": "Si Sypha esta muerta, el valor de esta carta es 2 más.",
+      "immediateText": "",
+      "duringText": "",
+      "afterText": "El rival sufre 2 da daño",
+      "imageUrl": "https://github.com/jualobcab/imagesUnmatched/blob/main/img/trevorLastStand.jpg?raw=true",
+      "quantity": 2
+    }
+  ],
+  "ruleCards": [
+    {
+      "content": "Cuando Sypha usa una carta en ataque o defensa, se mira el elemento de la última  carta jugada de esa forma y el elemento de la actual, y ocurre uno de los efectos siguientes (los efectos tienen la cualidad de INMEDIATAMENTE):\n- Tormenta (Agua + Rayo): Puedes potenciar la carta usada.\n\n- Vapor (Agua + Fuego): Cancela los efectos de la carta del rival.\n\n                                                                     1/2\n",
+      "title": "Sinergias Elementales"
+    },
+    {
+      "content": "- Hielo (Agua + Viento): El rival pierde la siguiente acción que deba realizar.\n\n- Explosión (Fuego + Rayo): El rival descarta una carta aleatoria de la mano.\n\n- Tempestad (Viento + Rayo): Tras el combate, los luchadores enemigos en tu misma zona sufren 1 daño.\n\n- Ráfaga Ígnea (Fuego + Viento): la carta usada aumenta en 2 su valor.\n                                                                    2/2\n",
+      "title": "Sinergias Elementales"
+    }
+  ],
+  "extraCharacters": []
+}
